@@ -5,7 +5,7 @@ const FrontendProfessional = () => {
   const [codeIndex, setCodeIndex] = useState(0);
   const [text, setText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
-  const [typingSpeed] = useState(0.001); // Velocidad de escritura en ms
+  const [typingSpeed] = useState(0); // Velocidad de escritura en ms
   // Estados para manejar el cursor, línea activa y visibilidad del contenido
   const [cursorVisible, setCursorVisible] = useState(true);
   const [activeLine, setActiveLine] = useState(0);
